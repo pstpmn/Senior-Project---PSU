@@ -53,7 +53,7 @@
 
     <center>
         <div class="call">
-            <p>Call Center : 087 - 8873162</p>
+            Call Center : 087 - 8873162
     </center>
     <?php include('footer.php');?>
     

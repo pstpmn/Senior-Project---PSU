@@ -1,27 +1,67 @@
-.footer {
-    margin-left: 25px;
-    font-size: 15.5px;
-    color: #aaaaaa;
-    font-family: 'Prompt', sans-serif;
-}
-
-b {
-    font-size: 15px;
-    color: black;
-}
-
-.b2 {
-    color: #0056b3;
-    padding-bottom: 25px;
-}
-
-.has3 {
-    font-size: 22px;
-    color: #949ba1;
-}
-
-.has4 {
-    font-size: 22px;
-    text-align: right;
-    padding-right: 410px;
-}
+ .footer {
+     margin-left: 25px;
+     font-size: 15.5px;
+     color: #aaaaaa;
+     font-family: 'Prompt', sans-serif;
+ }
+ 
+ b {
+     font-size: 15px;
+     color: black;
+ }
+ 
+ .b2 {
+     color: #0056b3;
+     padding-bottom: 25px;
+ }
+ 
+ .has1 {
+     background-color: #e7e7e7;
+     ;
+ }
+ 
+ .has2 {
+     font-size: 26px;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 60px;
+     color: #0056b3;
+ }
+ 
+ input[class="form-control"] {
+     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.034), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+     margin-bottom: 30px;
+     width: 48%;
+ }
+ 
+ .form-group {
+     width: 100%;
+ }
+ 
+ button[class="btn btn-primary"] {
+     width: 24%;
+ }
+ 
+ button[class="btn btn-danger"] {
+     width: 24%;
+ }
+ 
+ @media (max-width: 890px) {
+     button[class="btn btn-primary"],
+     button[class="btn btn-danger"] {
+         width: 90%;
+         margin-bottom: 10px;
+     }
+     input[class="form-control"] {
+         width: 90%;
+     }
+     .has2 {
+         font-size: 18px;
+     }
+ }
+ 
+ @media (max-width: 590px) {
+     .has2 {
+         font-size: 15px;
+     }
+ }
