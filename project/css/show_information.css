@@ -1,0 +1,26 @@
+.has4 {
+    font-size: 26px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #242424;
+}
+
+@media (max-width: 890px) {
+    .has2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 590px) {
+    .has4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .has4 {
+        font-size: 19px;
+    }
+}
