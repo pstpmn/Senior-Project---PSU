@@ -60,6 +60,7 @@
  
  .box p {
      padding-left: 25px;
+     font-family: 'Prompt', sans-serif;
  }
  
  .container .box button {
@@ -73,10 +74,12 @@
      margin-left: 25px;
      margin-bottom: 30px;
      margin-right: 10px;
+     font-family: 'Prompt', sans-serif;
  }
  
  .box select[name=list] {
      margin-left: 25px;
+     font-family: 'Prompt', sans-serif;
  }
  
  select[class=form-control] {
@@ -98,6 +101,7 @@
      background-color: #d7dae6;
      width: 100%;
      font-size: 20px auto;
+     font-family: 'Prompt', sans-serif;
      margin: 5 auto;
  }
  
