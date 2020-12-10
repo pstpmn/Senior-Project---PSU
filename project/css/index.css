@@ -39,11 +39,11 @@
  
  .box {
      float: right;
-     margin-top: 110px;
+     margin-top: 105px;
      margin-right: 30px;
      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.034), 0 7px 6px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
      width: 300px;
-     height: 400px;
+     height: 420px;
      background: white;
      border-radius: 5px;
  }
@@ -53,7 +53,7 @@
      background: #38BBEE;
      color: white;
      font-family: 'Prompt', sans-serif;
-     padding-top: 30px;
+     padding-top: 25px;
      padding-bottom: 10px;
      text-align: center;
  }
@@ -72,7 +72,7 @@
  
  .box input[type=date] {
      margin-left: 25px;
-     margin-bottom: 30px;
+     margin-bottom: 15px;
      margin-right: 10px;
      font-family: 'Prompt', sans-serif;
  }
@@ -144,8 +144,9 @@
          font-size: 19px auto;
          text-align: center;
      }
-     p {
-         padding-left: 20px;
+     .container2 p {
+         padding-left: 40px;
+         font-family: 'Prompt', sans-serif;
      }
  }
  
@@ -155,10 +156,18 @@
          font-size: 20px;
          text-align: center;
      }
+     .container2 p {
+         padding-left: 25px;
+         font-family: 'Prompt', sans-serif;
+     }
  }
  
  @media (max-width: 410px) {
      .slogan h1 {
          font-size: 19px;
+     }
+     .container2 p {
+         padding-left: 20px;
+         font-family: 'Prompt', sans-serif;
      }
  }

@@ -1,10 +1,9 @@
 <?php include('header.php');?>
 
 <style>
-   form {
+   .form {
       width: 48%;
       background: #ccc;
-      margin: 0 auto;
       padding: 20px;
       border: 1px solid black;
     }
@@ -22,16 +21,23 @@
       border: 1px solid black;
     }
 
-    form img {
-      height: 100px;
+    .form img {
+      height: 120px;
       order: 1;
+      width:35%; 
+      max-width: auto; 
+      max-height:130px; 
+      margin-top:10px;
       
     }
 
     
     @media (max-width: 995px) {
-     form {
+     .form {
       width: 90%;
+    }
+    .form img {
+      width:60%;
     }
  }
   </style>
@@ -39,7 +45,7 @@
     <body class="has1">
         
         <h3 class="has3">ฟอร์มแจ้งชำระเงินสำหรับการโอนเงินผ่านบัญชีธนาคาร</h3>
-        
+        <form>
         <center>
         <div class="form-group">
              
@@ -48,14 +54,14 @@
 
             <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
             
-        <form>
+        <div class="form">
             <input type='file' id="upload" onchange="showMyImage(this)" />
-            <img id="thumbnil" style="width:100%; max-width: auto; max-height:auto; margin:10px 0; display:none;" src="" alt="logo" />
+            <img id="thumbnil" style="display:none;" src="" alt="logo" />
             <br>
-        </form>
+        </div>
             <br>
             <button type="button" class="btn btn-info">ยืนยันการชำระเงิน</button>
-            
+        </form>
         </div>
         </center>
 

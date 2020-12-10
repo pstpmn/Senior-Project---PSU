@@ -10,6 +10,10 @@ td {
 table {
   border-spacing: 15px;
 }
+
+button[class="btn btn-info"] {
+     margin-bottom: 30px;
+ }
 </style>
     <body class="has1">
         <h3 class="has4">รหัสการซื้อตั๋ว Tickel ID : T04284 <span style="color:#00cc00;">(ชำระแล้ว)</span></h3>
@@ -91,4 +95,5 @@ table {
                 
 
             </table>
+            <br>
 

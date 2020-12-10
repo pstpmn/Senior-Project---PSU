@@ -1,5 +1,5 @@
 <?php include('header.php');?>
-<!-- Body Implement -->
+
 <style>
     input[type='radio'] {
         display: inline;
@@ -164,4 +164,3 @@
     </script>
 
 
-    <!--  Finish -->

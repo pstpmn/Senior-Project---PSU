@@ -1,5 +1,6 @@
  .footer {
-     margin-left: 25px;
+     margin-left: 90px;
+     margin-right: 90px;
      font-size: 15.5px;
      color: #aaaaaa;
      font-family: 'Prompt', sans-serif;
@@ -59,6 +60,10 @@
  }
  
  @media (max-width: 890px) {
+     .footer {
+         margin-left: 40px;
+         margin-right: 40px;
+     }
      button[class="btn btn-primary"],
      button[class="btn btn-danger"] {
          width: 90%;

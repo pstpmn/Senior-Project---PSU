@@ -23,13 +23,13 @@ label.logo {
     font-size: 28px;
     font-family: 'Prompt', sans-serif;
     line-height: 70px;
-    padding: 0 90px;
+    padding-left: 90px;
     font-weight: bold;
 }
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 90px;
 }
 
 nav ul li {
@@ -121,9 +121,9 @@ nav ul li a {
         font-size: 18px;
         color: rgb(199, 199, 199);
     }
-    a:hover {
-        background: none;
-        color: #0082e6;
+    #textNavber:hover {
+        background-color: none;
+        color: #28598d;
     }
     #check:checked~ul {
         left: -60%;
