@@ -22,9 +22,9 @@
     }
 
     .form img {
-      height: 120px;
+      height: auto;
       order: 1;
-      width:35%; 
+      width:auto; 
       max-width: auto; 
       max-height:130px; 
       margin-top:10px;
@@ -37,7 +37,7 @@
       width: 90%;
     }
     .form img {
-      width:60%;
+      width:auto;
     }
  }
   </style>
