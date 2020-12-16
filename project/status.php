@@ -11,7 +11,7 @@
 
             
 
-            <a href='show_information.php'><button type="button" class="btn btn-primary">ตกลง</button>
+            <a href='show_information.php'><button type="button" class="btn btn-primary">ตกลง</button></a>
             <a href='index.php'><button type="button" class="btn btn-danger">กลับไปยังหน้าแรก</button></a>
         </div>
         </center>

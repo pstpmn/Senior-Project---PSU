@@ -1,4 +1,31 @@
 <?php include('header.php');?>
+
+<style>
+    .fullheight {
+     height: 100vh;
+ }
+ 
+ .align-times-center {
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .img {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .img-fixed {
+     background-attachment: fixed;
+ }
+ 
+ .container {
+     width: 100%;
+     margin: 5 auto;
+ }
+</style>
+
     <section class="fullheight align-times-center img img-fixed" 
         style="background-image: url('image/tk.png');">
         <div class="container">
@@ -10,7 +37,7 @@
                 </div>
         
                 <div class="box">
-                    <form action="index_page_2.php" class="form-group" method="POST" >
+                    <form action="index_page_2.php" class="form-group " method="POST" >
                     <h2>เลือกวันที่ต้องการออกเดินทาง</h2>    
                         
                     <p><b>ต้นทาง</b></p>

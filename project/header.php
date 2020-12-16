@@ -7,9 +7,9 @@
             <link rel="stylesheet" href="css/header.css">
             <link rel="stylesheet" href="css/index.css">
             <link rel="stylesheet" href="css/show_information.css">
+            <link rel="stylesheet" href="css/check_in_check_out.css">
             <link rel="stylesheet" href="css/footer.css">
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-            <link href="https://mdbootstrap.com/docs/jquery/components/buttons/">
             <script src="https://kit.fontawesome.com/a076d05399.js"></script>
             
             <title>Sandmaneetpup</title>

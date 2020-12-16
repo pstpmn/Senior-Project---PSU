@@ -85,9 +85,10 @@
                 <input type="radio">ชาย
                 <input type="radio">หญิง
                 <br><br><br>
+
                 <a href='show_information.php'>
-                <button type="button" class="form-control btn btn-success">Save</button>
-                </a>
+                <button type="button" class="form-control btn btn-success">Save</button></a>
+
                 <button type="button" class="form-control btn btn-danger">Reset</button>
             </div>
         </div>
