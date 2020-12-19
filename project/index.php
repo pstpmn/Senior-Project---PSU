@@ -1,7 +1,7 @@
 <?php include('header.php');?>
 
 <style>
-    .fullheight {
+.fullheight {
      height: 100vh;
  }
  
