@@ -48,3 +48,24 @@
     padding-bottom: 20px;
     border-radius: 10px 10px 10px 10px;
 }
+
+@media (max-width:890px) {
+    .in-content,
+    .out-content {
+        width: 60%;
+        margin-top: 150px;
+    }
+    button[class="btn btn-success"],
+    button[class="btn btn-warning"] {
+        width: 49.5%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:520px) {
+    .in-content,
+    .out-content {
+        width: 90%;
+        margin-top: 100px;
+    }
+}

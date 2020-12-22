@@ -1,35 +1,34 @@
 <?php include('header.php');?>
 
 <style>
-
 form {
   width: 50%;
 }
-button[class="btn btn-primary"],
+button[class="btn btn-success"],
 button[class="btn btn-danger"] {
    width: 49.5%;
    margin-bottom: 10px;
 }
-
 @media (max-width: 995px) {
   form{
     width: 100%;
   }
 }
-
 @media (max-width: 890px) {
-  button[class="btn btn-primary"],
+  form{
+    width: 100%;
+  }
+  button[class="btn btn-success"],
   button[class="btn btn-danger"] {
-    width: 90%;
-    margin-bottom: 10px;
-  }
-  button[class="btn btn-danger"]{
-    width: 90%;
-  }
+       width: 90%;
+       margin-bottom: 10px;
+     }
 }
-
 @media (max-width: 590px) {
-  button[class="btn btn-primarys"],
+  form{
+    width: 100%;
+  }
+  button[class="btn btn-success"],
   button[class="btn btn-danger"] {
        width: 90%;
        margin-bottom: 10px;
@@ -38,8 +37,7 @@ button[class="btn btn-danger"] {
 </style>
 
   <body class="has1">
-     <h3 class="has4">กำหนดการเดินทาง/Travel Itinerary</br></br>
-      รหัสการซื้อตั๋ว Booking ID : T04284 <span style="color:red">(ค้างชำระ)</span></h3>
+     <h3 class="has4">กำหนดการเดินทาง/Travel Itinerary</br></h3>
       <center>
       <form>
       
@@ -123,7 +121,7 @@ button[class="btn btn-danger"] {
           </div>
           
           <div class="box-6">
-            <a href='index.php'><button type="button" class="btn btn-primary">ตกลง</button></a>
+            <a href='show_information.php'><button type="button" class="btn btn-success">ยืนยันข้อมูล</button></a>
             <a href='index.php'><button type="button" class="btn btn-danger">กลับไปยังหน้าแรก</button></a>
           </div>
       </form>
