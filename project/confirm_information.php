@@ -48,18 +48,27 @@ button[class="btn btn-danger"] {
             <tr>
               <th>ชื่อ - นามสกุล</th>
               <th>เบอร์โทรศัพท์</th>
-              <th>ชั้น</th>
-              <th>ฝั่ง</th>
-              <th>ที่นั่ง</th>
+              <th style="text-align:center">ชั้น</th>
+              <th style="text-align:center">ฝั่ง</th>
+              <th style="text-align:center">ที่นั่ง</th>
             </tr>
             
             <tr>
               <td>นาย พงศธร พัสมุณี</td>
               <td>012-3456789</td>
-              <td>T</td>
-              <td>R</td>
-              <td>21</td>
+              <td style="text-align:center">T</td>
+              <td style="text-align:center">R</td>
+              <td style="text-align:center">21</td>
           </tr>
+
+          <tr>
+              <td>นาย ชัชพงศ์์ บวรธนสาร</td>
+              <td>098-7654321</td>
+              <td style="text-align:center">T</td>
+              <td style="text-align:center">R</td>
+              <td style="text-align:center">23</td>
+          </tr>
+          
         </table>
             
         </div>
@@ -102,7 +111,7 @@ button[class="btn btn-danger"] {
                 <table>
                   <tr>
                     <th class="th-3">เดินทาง :</th>
-                    <td>1 ที่นั่ง</td>
+                    <td>2 ที่นั่ง</td>
                   </tr>
                   <tr>
                     <th class="th-3">ราคา :</th>
@@ -114,7 +123,7 @@ button[class="btn btn-danger"] {
                   </tr>
                   <tr>
                     <th class="th-3">ยอดรวมชำระ :</th>
-                    <td>550 บาท</td>
+                    <td>1,100 บาท</td>
                   </tr>
               </table>
             </div>
