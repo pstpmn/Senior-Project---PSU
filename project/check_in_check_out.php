@@ -5,10 +5,17 @@
 
         <center>
         <div class="form-group">
-            <input type="text" class="form-control" id="id_code"  placeholder="รหัสการซื้อตั๋ว">
+            <!-- <input type="text" class="form-control" id="id_code"  placeholder="รหัสการซื้อตั๋ว"> -->
+            
+            <button onclick="document.getElementById('check_in').style.display='block'" type="button" class="btn btn-success">
+                <img src="image/Check_In - Check_Out.png" style = "width: 40%"><br>
+                    <p>Check In</p>
+            </button>
 
-            <button onclick="document.getElementById('check_in').style.display='block'" type="button" class="btn btn-success">Check In</button>
-            <button onclick="document.getElementById('check_out').style.display='block'" type="button" class="btn btn-warning">Check Out</button>
+            <button onclick="document.getElementById('check_out').style.display='block'" type="button" class="btn btn-warning">
+                <img src="image/Check_In - Check_Out.png" style = "width: 40%"><br>
+                    <p>Check Out</p>
+            </button>
         </div>
         </center>
 
@@ -24,10 +31,10 @@
                 <buttion onclick="document.getElementById('check_in').style.display='none'" type="button" class="btn btn-success">OK</button>
             </form>
         </div>
-        </center>
+        
 
 <!-- /* Check Out */ -->
-        <center>
+        
         <div id = "check_out" class="out">
             <form class="out-content">
                 <p><b>รหัสซื้อตั๋ว : T04284</b></p>

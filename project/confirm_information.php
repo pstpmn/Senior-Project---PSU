@@ -94,11 +94,11 @@ button[class="btn btn-danger"] {
                   </tr>
                   <tr>
                     <th class="th-2">เวลาออกเรือ :</th>
-                    <td>23.00 น.</td>
+                    <td>08.30 น.</td>
                   </tr>
                   <tr>
                     <th class="th-2">หมายเลขเรือ :</th>
-                    <td>111</td>
+                    <td>1</td>
                   </tr>
     
               </table>
