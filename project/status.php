@@ -6,12 +6,11 @@
         
         <center>
         <div class="form-group"> 
-            <input type="text" class="form-control" id="id_code"  placeholder="รหัสการซื้อตั๋ว">
-            <input type="text" class="form-control" id="phone" placeholder="หมายเลขโทรศัพท์">
+            <form action="show_information.php" method="POST" enctype="multipart/form-data" name="form1" id="form1"> 
+                <input type="text" class="form-control" id="ticket_code"  name="ticket_code" placeholder="รหัสการซื้อตั๋ว">
 
-            
-
-            <a href='show_information.php'><button type="button" class="btn btn-primary">ตกลง</button></a>
-            <a href='index.php'><button type="button" class="btn btn-danger">กลับไปยังหน้าแรก</button></a>
+                <button type="submit" class="btn btn-primary">ตกลง</button></a>
+                <a href='index.php'><button type="button" class="btn btn-danger">กลับไปยังหน้าแรก</button></a>
+            </form>
         </div>
         </center>

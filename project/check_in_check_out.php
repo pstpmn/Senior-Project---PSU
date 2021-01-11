@@ -1,4 +1,26 @@
 <?php include('header.php');?>
+<style>
+    button[class="btn btn-success"],
+    button[class="btn btn-warning"] {
+        width: 30%;
+        height: 300px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 28px;
+}
+
+@media (max-width:890px) {
+    button[class="btn btn-success"],
+    button[class="btn btn-warning"] {
+        width: 45%;
+        height: 150px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+}
+</style>
+
     <body class="has1">
 
         <h3 class="has2">Check In - Check Out</h3>
@@ -13,7 +35,7 @@
             </button>
 
             <button onclick="document.getElementById('check_out').style.display='block'" type="button" class="btn btn-warning">
-                <img src="image/Check_In - Check_Out.png" style = "width: 40%"><br>
+                <img src="image/Check_Out - Check_In.png" style = "width: 40%"><br>
                     <p>Check Out</p>
             </button>
         </div>

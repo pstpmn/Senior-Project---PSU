@@ -57,38 +57,38 @@
                     <h2>เลือกวันที่ต้องการออกเดินทาง</h2>    
                         
                     <p><b>ต้นทาง</b></p>
-                        <select name="list" id='select-Location_start' onchange="getSearchBoat(
+                        <select name="list" class="form-control" id='select-Location_start' onchange="getSearchBoat(
                             document.getElementById('select-Location_start').value,
                             document.getElementById('select-Location_end').value)">
                             <option>------ ต้นทาง ------</option>
-                        </select></br></br>
+                        </select></br>
 
                         <p><b>ปลายทาง</b></p>
                     
-                        <select name="list" id='select-Location_end' onchange="getSearchBoat(
+                        <select name="list" class="form-control" id='select-Location_end' onchange="getSearchBoat(
                             document.getElementById('select-Location_start').value,
                             document.getElementById('select-Location_end').value)">
                             <option>------ ปลายทาง ------</option>
-                        </select></br></br>
-                        
-                        <!-- javascript -->
-                        <script>
-                            getSelectLocation();
-                        </script>
-                        <!-- javascript -->
+                        </select></br>
 
                         <p><b>เลือกหมายเลขเรือ</b></p>
                         
-                        <select name="list" id='boat-number'>
+                        <select name="list" class="form-control" id='boat-number'>
                             <option value="1">------ เลือกหมายเลขเรือ ------ </option>
-                        </select></br></br>
+                        </select></br>
 
 
                         <p><b>วันที่ออกเดินทาง</b></p>
-                            <input type="date" name="" value="<?php echo date('Y-m-d') ?>"></br></br>
+                            <input type="date" class="form-control" value="<?php echo date('Y-m-d') ?>"></br>
                     
                         <center>
-                            <button type="submit"class="btn btn-primary"><span>ค้นหาที่นั่ง</span></button></a>
+                            <button type="submit"class="btn btn-primary" onclick="getBoatSeat(
+                                document.getElementById('boat-number').value,
+                                document.getElementById('date').value,
+                                document.getElementById('select-Location_start').value,
+                                document.getElementById('select-Location_end').value)">
+                                    ค้นหาที่นั่ง
+                                </button></a>
                         </center>
                     </form>
                 </div>
@@ -101,25 +101,32 @@
         
         <p><b>ต้นทาง</b></p>   
         <center>         
-         <select class="form-control" >
-             <option value="1">------ ต้นทาง ------<br>
-             <option value="2">สุราษฎร์ธานี<br>
-             <option value="3">เกาะเต่า<br>
+         <select class="form-control" id='select-Location_start-responsive' onchange="getSearchBoatForResponsive(
+            document.getElementById('select-Location_start-responsive').value,
+            document.getElementById('select-Location_end-responsive').value)">
+            <option>------ ต้นทาง ------</option>
          </select></br>
          </center>  
         
          <p><b>ปลายทาง</b></p>
          <center>         
-         <select class="form-control">
-             <option value="1">------ ปลายทาง ------<br>
-             <option value="2">สุราษฎร์ธานี<br>
-             <option value="3">เกาะเต่า<br>
+         <select class="form-control" id='select-Location_end-responsive' onchange="getSearchBoatForResponsive(
+            document.getElementById('select-Location_start-responsive').value,
+            document.getElementById('select-Location_end-responsive').value)">
+            <option>------ ปลายทาง ------</option>
          </select></br>
          </center>
 
+        <!-- javascript -->
+        <script>
+            getSelectLocation();
+            getSelectLocationForResponsive();
+        </script>
+        <!-- javascript -->
+
         <p><b>เลือกหมายเลขเรือ</b></p>
         <center> 
-            <select name="list" class="form-control" id='boat-number'>
+            <select name="list" class="form-control" id='boat-number-responsive'>
                 <option value="1">------ เลือกหมายเลขเรือ ------ </option>
             </select></br>
         </center>
@@ -130,7 +137,13 @@
         </center>
 
         <center>
-            <button type="submit"class="btn btn-primary"><span>ค้นหาที่นั่ง</span></button></a>
+            <button type="submit"class="btn btn-primary" onclick="getBoatSeat(
+                document.getElementById('boat-number').value,
+                document.getElementById('date').value,
+                document.getElementById('select-Location_start').value,
+                document.getElementById('select-Location_end').value)">
+                    ค้นหาที่นั่ง
+            </button></a>
         </center>
         </form>
     </div>

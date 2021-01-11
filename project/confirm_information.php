@@ -8,6 +8,7 @@ button[class="btn btn-success"],
 button[class="btn btn-danger"] {
    width: 49.5%;
    margin-bottom: 10px;
+   font-family: 'Kanit', sans-serif;
 }
 @media (max-width: 995px) {
   form{
@@ -130,7 +131,7 @@ button[class="btn btn-danger"] {
           </div>
           
           <div class="box-6">
-            <a href='show_information.php'><button type="button" class="btn btn-success">ยืนยันข้อมูล</button></a>
+            <a href='confirm_show_information.php'><button type="button" class="btn btn-success">ยืนยันข้อมูล</button></a>
             <a href='index.php'><button type="button" class="btn btn-danger">กลับไปยังหน้าแรก</button></a>
           </div>
       </form>
